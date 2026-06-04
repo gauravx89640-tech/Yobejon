@@ -325,20 +325,35 @@ export default function Home() {
                 </figure>
               </div>
 
-              {/* Single framed photo — mobile */}
-              <figure className="md:hidden bg-card p-2.5 shadow-[0_12px_35px_rgba(43,43,43,0.18)] rotate-[-2deg] max-w-sm mx-auto">
-                <div className="relative aspect-[3/2] overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="https://www.yobejonbeauty.com/images/overview-1-470x282.jpg"
-                    alt="Inside Yobejon Beauty salon"
-                    loading="lazy"
-                    className="absolute inset-0 w-full h-full object-cover [filter:brightness(0.9)_saturate(1.05)]"
-                  />
-                  <div className="pointer-events-none absolute inset-0 bg-foreground/10 mix-blend-multiply"></div>
-                  <div className="pointer-events-none absolute inset-0 grain-overlay"></div>
-                </div>
-              </figure>
+              {/* Both framed photos — mobile, stacked */}
+              <div className="md:hidden space-y-6">
+                <figure className="bg-card p-2.5 shadow-[0_12px_35px_rgba(43,43,43,0.18)] rotate-[-2deg] max-w-sm mx-auto">
+                  <div className="relative aspect-[3/2] overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="https://www.yobejonbeauty.com/images/overview-1-470x282.jpg"
+                      alt="Inside Yobejon Beauty salon"
+                      loading="lazy"
+                      className="absolute inset-0 w-full h-full object-cover [filter:brightness(0.9)_saturate(1.05)]"
+                    />
+                    <div className="pointer-events-none absolute inset-0 bg-foreground/10 mix-blend-multiply"></div>
+                    <div className="pointer-events-none absolute inset-0 grain-overlay"></div>
+                  </div>
+                </figure>
+                <figure className="bg-card p-2.5 shadow-[0_12px_35px_rgba(43,43,43,0.18)] rotate-[2deg] max-w-sm mx-auto">
+                  <div className="relative aspect-[3/2] overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="https://www.yobejonbeauty.com/images/overview-2-470x282.jpg"
+                      alt="Yobejon Beauty salon detail"
+                      loading="lazy"
+                      className="absolute inset-0 w-full h-full object-cover [filter:brightness(0.9)_saturate(1.05)]"
+                    />
+                    <div className="pointer-events-none absolute inset-0 bg-foreground/10 mix-blend-multiply"></div>
+                    <div className="pointer-events-none absolute inset-0 grain-overlay"></div>
+                  </div>
+                </figure>
+              </div>
 
               <div className="space-y-6">
                 <div>
