@@ -27,13 +27,13 @@ const testimonials = [
 ]
 
 const galleryImages = [
-  { src: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsSL2h4n4CvWU8RfOM_FAemC8-AqD1BhsQNqt3D9uRcRLZgc2m55iSCXZZzeFB9rZmSAI9mVRDSYz8HrPTefncvtREf_jivmCDtextKRrOCIraWRhwHhQ1rBs_682D7Fal0es=s680-w680-h510', alt: 'Yobejon nail design', label: 'Bling Set' },
-  { src: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6NcV3WJyffTa3n8waqDcXGKnT90ttzPsl3BprOU_LTwAQ9iUCEwnRtvgEMRm6HGVnKNfgCXot7G1CSHVN4YIL_1ZGtlnD_Ci50_8U2kV9iub-vvXAeLkGeyMlwncpf2ICi6Mvkpj7t98=s680-w680-h510', alt: 'Yobejon nail design', label: 'Classic Art' },
-  { src: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrMncM2ywYxtUWF3DDt3Vl9DfhAmvl4SOzdI0KdXaMqjbRdrp7-1N6WxBRgpGwoRdRZk2pJqgfR__bBY-GsFAE94XXC5qRj8503ARE4NppNBiMXYpp7KaRHdsgFRaUPDUPWvAkgytkm8yB=s680-w680-h510', alt: 'Yobejon nail design', label: 'Butterfly' },
-  { src: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAFItICvOcz1cLq6P1MWogqGt5JdKjf5ojFwIK4srdRPBDj0mDF9F7q3cZ-0FH51p0S9cyovc-tgCiC6VcuLXk8RlKwMb0YYe-gFjliCsStLw6q_MFR6qO3-RJnqUNDMWEx5ZAI=s680-w680-h510', alt: 'Yobejon nail design', label: 'Bespoke' },
-  { src: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZS5Zg41XKW_GGJFRAZNd3ZGkWk7_niWaCMfwYp9pCCcmN4qblkZAoP9EO93L3yFCKT5etyMlnjqypydR39bdY6bhVYdy4Il3EbZgv8Os3nTBXExyaJEvVvy69KoH-K_0Xh-L2MRqU-yH9=s680-w680-h510', alt: 'Yobejon nail design', label: 'Hand-Painted' },
-  { src: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAFeqx7mFEHiUXAZiPodqxHzv4-NM1YqHKWTBDC-ZviDZk0utrLcYnJK41djgdTwoCSTmG5WyfZA2RM8E5yXmzHyJgtfr3LImkbSmDlSjhFV0q0WRcad4CKJX0hR2dyLHMFK_xQ-jMamTLFc=s680-w680-h510', alt: 'Yobejon nail design', label: 'Signature' },
-  { src: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAHN6bM6aoTS44qQ1z8VTkyx0EM3f6K1FQSV4-A4PvKJgeqd5k3H95v_CZa-qEBt9AfKn3MzPjs4Ma23yzuwRtghlDA6dhQ2pwkSAjbQuXDRCidAAp50boGbV37ltGNx9aO5N6PJZSfHNRg_=s680-w680-h510', alt: 'Yobejon nail design', label: 'Yobejon Original' },
+  { src: '/gallery/bling-set.jpg', alt: 'Yobejon nail design', label: 'Bling Set' },
+  { src: '/gallery/classic-art.jpg', alt: 'Yobejon nail design', label: 'Classic Art' },
+  { src: '/gallery/butterfly.jpeg', alt: 'Yobejon nail design', label: 'Butterfly' },
+  { src: '/gallery/bespoke.jpg', alt: 'Yobejon nail design', label: 'Bespoke' },
+  { src: '/gallery/hand-painted.webp', alt: 'Yobejon nail design', label: 'Hand-Painted' },
+  { src: '/gallery/signature.webp', alt: 'Yobejon nail design', label: 'Signature' },
+  { src: '/gallery/yobejon-original.jpg', alt: 'Yobejon nail design', label: 'Yobejon Original' },
 ]
 
 const services = [
